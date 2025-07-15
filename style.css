@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.container{
+    background-color: white;
+    color: blueviolet;
+    height: 550px;
+    width: 600px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-direction: column;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+h1{
+    cursor: pointer;
+}
+
+img  {
+    height:150px;
+}
+
+.start {
+    display: flex;
+    gap: 100px;
+  }
+
+.player{
+    transform: rotate(90deg);
+}
+
+
+.computer{
+    transform: rotate(270deg) scaleX(-1);
+}
+
+.play {
+    display: flex;
+    gap: 60px;
+}
+
+  
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  button img {
+    height: 100px;
+  }
+  
+  button span {
+    color: blueviolet;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+
+.rock{
+    opacity: 0.4;
+}
+  
+.rock:hover{
+    opacity: 1;
+}
+  
+  
+
+
+
+
+
+
+
