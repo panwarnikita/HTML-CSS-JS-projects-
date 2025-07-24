@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-color: #977DFE;
+  }
+  
+  .container {
+    background-color: #fff;
+    height: 430px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .color-box {
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(#FF6B6B, #4D96FF);
+    border-radius: 5px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    border-radius: 10px;
+    gap: 10px;
+   }
+  
+  .row label {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .apply{
+    display: flex;
+    gap: 60px;
+  }
+
+  .change{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .color {
+    width: 60px;
+    height: 35px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+
+  .color::-webkit-color-swatch-wrapper {
+    padding: 0;
+    border-radius: 4px;
+  }
+  
+
+  .button-row{
+    display: flex;
+    gap: 10px;
+  }
+  
+  #color-code {
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: monospace;
+  }
+  
+  .button-group {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .Refresh,
+  .Copy {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .Refresh {
+    background-color: #7c7979;
+  }
+  
+  .Copy {
+    background-color: #977DFE;
+  }
+  
+
+
+
+
+
+

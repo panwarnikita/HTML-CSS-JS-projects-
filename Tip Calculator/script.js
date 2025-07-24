@@ -10,14 +10,14 @@ button.addEventListener("click", function(){
     if(amount && percentage){
         let tip =  (percentage/100)*amount
         let total = amount+tip
-        result.textContent = "Total: " + parseFloat(total.toFixed(2));
+        result.textContent = "Total: " + (total.toFixed(2));
     }
 
     else{
         alert( "Please enter an appropriate value." )
     }
-
-  
 });
+
+
 
 
